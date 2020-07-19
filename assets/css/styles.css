@@ -185,7 +185,12 @@ section {
 My Video
 /////////////*/
 
-video {
+.maestro {
+  position: relative;
+  justify-content: center;
+}
+
+.video-fondo {
   object-fit: contain;
 }
 
