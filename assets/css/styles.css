@@ -216,6 +216,39 @@ My Video
   background-color: rgba(14, 24, 37, 0.5);
 }
 
+/* ///////////
+  Icon WhastApp
+/////////////*/
+
+.whatsapp-icon {
+  opacity: 0;
+  padding: 10px 13px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  border-radius: 50%;
+  bottom: 25px;
+  right: 20px;
+  
+  z-index: 110;
+}
+
+.whatsapp-icon, .whatsapp-icon:hover {
+  transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+
+.whatsapp-icon a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.whatsapp-icon a i {
+  font-size: 2em;
+}
+
 /* //////////////
    Hero
 //////////////*/
