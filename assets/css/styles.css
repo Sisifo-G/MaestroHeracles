@@ -6,6 +6,7 @@
   --light-grey-color: #f5f5f5;
   --gold-color: #ffb944;
   --title-color: rgba(216, 123, 29, 0.6);
+  --green-whatsapp: rgb(34, 173, 34);
 }
 
 * {
@@ -85,9 +86,11 @@ a:hover {
 }
 
 .btn-secondary {
-  background-color: var(--white-color);
-  color: var(--dark-blue-main);
-  border: 2px solid var(--white-color);
+  font-size: 24px;
+  background-color: var(--green-whatsapp);
+  color: var(--light-grey-color);
+  border: 2px solid var(--green-whatsapp);
+  border-radius: 35px;
   position: relative;
 }
 
@@ -103,11 +106,12 @@ a:hover {
 }
 .btn-secondary:hover {
   background-color: var(--white-color);
-  color: var(--dark-color);
+  color: var(--green-whatsapp);
   border: 2px solid var(--white-color);
 }
 .btn-secondary:focus {
   background-color: var(--white-color) !important;
+  color: var(--green-whatsapp);
   outline: none;
   border: 2px solid var(--white-color) !important;
   box-shadow: none;
@@ -229,11 +233,12 @@ My Video
   border-radius: 50%;
   bottom: 25px;
   right: 20px;
-  
+
   z-index: 110;
 }
 
-.whatsapp-icon, .whatsapp-icon:hover {
+.whatsapp-icon,
+.whatsapp-icon:hover {
   transition: all 500ms ease;
   -o-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
