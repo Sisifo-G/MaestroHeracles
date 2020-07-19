@@ -97,7 +97,7 @@
     ////////////////////// -->
 
     <span class="whatsapp-icon btn-success">
-      <a href="">
+      <a href="https://api.whatsapp.com/send?phone=526323188867" target="_bank">
         <i class="fa fa-whatsapp fa-2" aria-hidden="true"></i>
       </a>
     </span>
@@ -260,11 +260,9 @@
     <section id="testimonial" class="divider">
       <div class="container">
         <div class="content-center">
-          <h2>A few words from <b>our clients…</b></h2>
+          <h2><b>Testimonios</b></h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ea
-            consequuntur, odit veniam mollitia aliquam reiciendis dignissimos,
-            vitae sapiente neque, cum dolorum.
+            presente para muchos los testimonios de las personas que tuvieron el lujo de vivirlas
           </p>
         </div>
         <div
@@ -275,11 +273,20 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="carousel-container">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  ea consequuntur, odit veniam mollitia aliquam reiciendis
-                  dignissimos, vitae sapiente neque, cum dolorum.
-                </p>
+                <div class="content-tetimonios d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/images/testimonios/testimonio1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <!-- Sandra Maria Rodriguez -->
+                  <div class="d-flex flex-column ml-3">
+                    <p class="h3">Sandra Maria Rodriguez</p>
+                    <audio controls controlslist="nodownload">
+                      <source src="assets/images/testimonios/testimonio1.ogg">
+                    </audio>
+                  </div>
+                </div>
                 <div class="rating">
                   <ul class="list-inline">
                     <li class="list-inline-item">
@@ -298,31 +305,25 @@
                       <i class="icon ion-md-star"></i>
                     </li>
                   </ul>
-                </div>
-                <div class="testimonial-user">
-                  <div class="row">
-                    <div class="col-md-3 col-3">
-                      <img
-                        src="assets/images/member-01.jpg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="col-md-9 col-9">
-                      <h6>Marissa Mayer</h6>
-                      <span>Yahoo CEO</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="carousel-container">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  ea consequuntur, odit veniam mollitia aliquam reiciendis
-                  dignissimos, vitae sapiente neque, cum dolorum.
-                </p>
+                <div class="content-tetimonios d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/images/testimonios/testimonio2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <!-- Juan Vicente Hernandez -->
+                  <div class="d-flex flex-column ml-3">
+                    <p class="h3">Juan Vicente Hernandez</p>
+                    <audio controls controlslist="nodownload">
+                      <source src="assets/images/testimonios/testimonio2.ogg">
+                    </audio>
+                  </div>
+                </div>
                 <div class="rating">
                   <ul class="list-inline">
                     <li class="list-inline-item">
@@ -341,31 +342,25 @@
                       <i class="icon ion-md-star"></i>
                     </li>
                   </ul>
-                </div>
-                <div class="testimonial-user">
-                  <div class="row">
-                    <div class="col-md-3 col-3">
-                      <img
-                        src="assets/images/member-02.jpg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="col-md-9 col-9">
-                      <h6>Marry Barra</h6>
-                      <span>General Motors CEO</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
               <div class="carousel-container">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  ea consequuntur, odit veniam mollitia aliquam reiciendis
-                  dignissimos, vitae sapiente neque, cum dolorum.
-                </p>
+                <div class="content-tetimonios d-flex align-items-center justify-content-center">
+                  <img
+                    src="assets/images/testimonios/testimonio3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <!-- Viviana Arango Rojas -->
+                  <div class="d-flex flex-column ml-3">
+                    <p class="h3">Viviana Arango Rojas</p>
+                    <audio controls controlslist="nodownload">
+                      <source src="assets/images/testimonios/testimonio3.ogg">
+                    </audio>
+                  </div>
+                </div>
                 <div class="rating">
                   <ul class="list-inline">
                     <li class="list-inline-item">
@@ -384,21 +379,6 @@
                       <i class="icon ion-md-star"></i>
                     </li>
                   </ul>
-                </div>
-                <div class="testimonial-user">
-                  <div class="row">
-                    <div class="col-md-3 col-3">
-                      <img
-                        src="assets/images/member-03.jpg"
-                        class="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div class="col-md-9 col-9">
-                      <h6>Elon Musk</h6>
-                      <span>Tesla CEO</span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -456,7 +436,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    id=""
+                    id="nombre"
                     placeholder="Nombre"
                   />
                 </div>
@@ -466,7 +446,7 @@
                   <input
                     type="number"
                     class="form-control"
-                    id=""
+                    id="telefono"
                     placeholder="Teléfono (opcional)"
                   />
                 </div>
@@ -476,7 +456,7 @@
                   <input
                     type="email"
                     class="form-control"
-                    id=""
+                    id="email"
                     placeholder="Email"
                   />
                 </div>
@@ -486,7 +466,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    id=""
+                    id="company"
                     placeholder="Company name"
                   />
                 </div>
