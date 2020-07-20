@@ -93,6 +93,11 @@ a:hover {
   border: 2px solid var(--green-whatsapp);
   border-radius: 35px;
   position: relative;
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: infinite; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .btn-alternate {
