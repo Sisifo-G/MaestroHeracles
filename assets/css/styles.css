@@ -202,6 +202,15 @@ My Video
 
 .video-fondo {
   object-fit: contain;
+  /* background-color: var(--title-color); */
+  /* background: rgba(237,150,45,1);
+  background: -moz-linear-gradient(top, rgba(237,150,45,1) 0%, rgba(115,69,13,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,150,45,1)), color-stop(100%, rgba(115,69,13,1)));
+  background: -webkit-linear-gradient(top, rgba(237,150,45,1) 0%, rgba(115,69,13,1) 100%);
+  background: -o-linear-gradient(top, rgba(237,150,45,1) 0%, rgba(115,69,13,1) 100%);
+  background: -ms-linear-gradient(top, rgba(237,150,45,1) 0%, rgba(115,69,13,1) 100%);
+  background: linear-gradient(to bottom, rgba(237,150,45,1) 0%, rgba(115,69,13,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed962d', endColorstr='#73450d', GradientType=0 ); */
 }
 
 #myVideo {
@@ -539,8 +548,11 @@ footer .list-inline .list-inline-item {
 @media (max-width: 575px) {
   #myVideo {
     top: 60px;
-    right: -60%;
-    max-width: 990px;
+    right: -110%;
+    /* max-width: 990px; */
+  }
+  .video-fondo {
+    object-fit: cover;
   }
 }
 
@@ -602,7 +614,7 @@ footer .list-inline .list-inline-item {
   }
 
   #myVideo {
-    right: -10%;
+    right: -35%;
   }
 }
 
@@ -625,6 +637,10 @@ footer .list-inline .list-inline-item {
   .grid-item audio {
     margin: 0px auto;
     width: 100%;
+  }
+
+  #myVideo {
+    right: -15%;
   }
 }
 
