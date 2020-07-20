@@ -30,7 +30,8 @@ body {
   background-color: var(--white-color);
 }
 .bgLightGrey {
-  background-color: var(--light-grey-color);
+  position: relative;
+  background-color: rgba(13, 26, 44, 0.5);
 }
 
 .colorDark {
@@ -52,7 +53,7 @@ h2 {
 }
 h3 {
   font-size: 33px;
-  color: var(--light-grey-color);
+  color: var(--white-color);
 }
 h5 {
   margin-bottom: 0px;
@@ -130,7 +131,7 @@ footer p {
 }
 
 section {
-  padding: 60px 0;
+  padding: 110px 0;
 }
 
 .divider {
