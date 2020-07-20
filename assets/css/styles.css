@@ -3,7 +3,7 @@
   --dark-blue-main: hsl(218, 28%, 13%);
   --dark-color: #1a1a1a;
   --white-color: #ffffff;
-  --light-grey-color: #f5f5f5;
+  --light-grey-color: #fdfbfb;
   --gold-color: #ffb944;
   --title-color: rgba(216, 123, 29, 0.6);
   --green-whatsapp: rgb(34, 173, 34);
@@ -30,7 +30,8 @@ body {
   background-color: var(--white-color);
 }
 .bgLightGrey {
-  background-color: var(--light-grey-color);
+  position: relative;
+  background-color: rgba(13, 26, 44, 0.5);
 }
 
 .colorDark {
@@ -52,7 +53,7 @@ h2 {
 }
 h3 {
   font-size: 33px;
-  color: var(--light-grey-color);
+  color: var(--white-color);
 }
 h5 {
   margin-bottom: 0px;
@@ -60,10 +61,10 @@ h5 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--light-grey-color);
-  opacity: 0.5;
-  line-height: 1.8;
+  opacity: 0.7;
+  line-height: 2;
   margin-bottom: 0px;
 }
 
@@ -121,7 +122,7 @@ a:hover {
 #contact p,
 #politics p,
 footer p {
-  color: var(--light-grey-color);
+  color: var(--white-color);
 }
 
 .logo-brand {
@@ -130,7 +131,7 @@ footer p {
 }
 
 section {
-  padding: 60px 0;
+  padding: 110px 0;
 }
 
 .divider {
@@ -217,7 +218,7 @@ My Video
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  background-color: rgba(14, 24, 37, 0.5);
+  background-color: rgba(14, 24, 37, 0.3);
 }
 
 /* ///////////
@@ -267,7 +268,7 @@ My Video
 }
 
 #hero p {
-  color: var(--white-color);
+  color: var(--light-grey-color);
 }
 
 /* //////////////
@@ -454,13 +455,13 @@ My Video
 
 footer {
   position: relative;
-  padding: 80px 0;
+  padding: 20px 0;
   text-align: center;
   color: var(--white-color);
 }
 
 footer a {
-  color: var(--white-color);
+  color: var(--title-color);
 }
 
 footer a:hover {
