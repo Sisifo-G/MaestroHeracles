@@ -375,6 +375,10 @@ My Video
    Testimonial
 //////////////*/
 
+.content-Testimonios {
+  width: 100%;
+}
+
 .carousel {
   min-height: 240px;
   padding: 40px;
