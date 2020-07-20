@@ -558,7 +558,8 @@ footer .list-inline .list-inline-item {
 
 @media (max-width: 575px) and (orientation: landscape) {
   #myVideo {
-    right: -12%;
+    left: 0;
+    max-width: 100%;
   }
 }
 
@@ -645,4 +646,10 @@ footer .list-inline .list-inline-item {
 }
 
 @media (min-width: 1200px) {
+}
+
+@media (max-width: 1200px) and (orientation: landscape) {
+  #myVideo {
+    right: 0;
+  }
 }
