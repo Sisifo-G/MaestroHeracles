@@ -36,6 +36,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
 
+    <!-- Material Icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/whats.css">
+    <link rel="stylesheet" href="assets/css/whats2.css">
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/avatar.png" />
 
@@ -101,11 +110,38 @@
       Button WhatsApp
     ////////////////////// -->
 
-    <span class="whatsapp-icon btn-success">
-      <a href="https://api.whatsapp.com/send?phone=526323188867" target="_bank">
-        <i class="fa fa-whatsapp fa-2" aria-hidden="true"></i>
-      </a>
-    </span>
+    <div class="nav-bottom">    
+      <div class="popup-whatsapp fadeIn">
+        <div class="content-whatsapp -top">
+          <button type="button" class="closePopup">
+            <i class="material-icons icon-font-color">close</i>
+          </button>
+
+          <p>
+            <img src="assets/images/secretary.png" width="50" /> Hola, ¿en que podemos
+            ayudarle?
+          </p>
+        </div>
+        <div class="content-whatsapp -bottom">
+          <input
+            class="whats-input"
+            id="whats-in"
+            type="text"
+            placeholder="Enviar mensaje..."
+          />
+
+          <button class="send-msPopup" id="send-btn" type="button">
+            <i class="material-icons icon-font-color--black">send</i>
+          </button>
+        </div>
+      </div>
+      <button type="button" id="whats-openPopup" class="whatsapp-button">
+        <div class="float">
+          <i class="fa fa-whatsapp my-float"></i>
+        </div>
+      </button>
+      <div class="circle-anime"></div>
+    </div>
 
     <!-- /////////////////
       HERO
@@ -476,10 +512,10 @@
       src="https://kit.fontawesome.com/978fd2d0a8.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Optional JavaScript -->
-    <script src="assets/js/scrollTop.js"></script>
     <!-- particles -->
     <script src="assets/js/particles.min.js"></script>
     <script src="assets/js/particulas.js"></script>
+    <!-- WhatsAppIcon -->
+    <script src="assets/js/script2.js"></script>
   </body>
 </html>
